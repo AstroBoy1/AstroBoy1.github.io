@@ -5,4 +5,4 @@
 layout: home
 ---
 
-stuff
+I showcase some chess projects that I have worked on throughout the years.
