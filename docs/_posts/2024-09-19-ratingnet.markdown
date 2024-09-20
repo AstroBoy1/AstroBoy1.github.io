@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Chess Rating Estimation from Moves"
-date:   2019-05-11 15:34:41 -0800
+date:   2024-09-19 15:34:41 -0800
 categories: jekyll update
 ---
 
