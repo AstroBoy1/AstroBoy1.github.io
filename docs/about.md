@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm a PhD student in Artificial Intelligence and like chess!
+I'm a PhD student in Artificial Intelligence and I enjoy chess!
 
 My chess.com profile: [chess.com profile][chess-link]
 
