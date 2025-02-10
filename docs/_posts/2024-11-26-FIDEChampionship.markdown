@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2024 FIDE World Championship Analytics Preview"
+title:  "Kaggle"
 date:   2024-11-26 15:34:41 -0800
 categories: jekyll update
 ---
