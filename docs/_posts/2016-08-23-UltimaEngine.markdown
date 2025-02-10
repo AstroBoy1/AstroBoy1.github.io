@@ -5,7 +5,7 @@ date:   2016-08-23 15:34:41 -0800
 categories: jekyll update
 ---
 
-My friend Marcus and I created this Ultima chess engine: [blog link][lichess-link]
+My friend Marcus and I created this Ultima chess engine: [github link][lichess-link]
 We used alpha-beta pruning with mini-max search code and custom evaluation functions for the position
 to guide the engine towards good positions, written in Python.
 
