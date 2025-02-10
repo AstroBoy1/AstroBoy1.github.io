@@ -12,6 +12,7 @@ This was my first time looking at chess engine code: [GitHub Link][code-link].
 The goal of the competition was to keep the memory under 5 MiB and the total file size under 64 KiB.  
 I ended up trying out a variety of open-source chess engines, documenting the memory usage, Elo, and file size of each.  
 Stockfish stood out as the strongest, while Cfish was a more memory-efficient version written in C.
+Cfish10 was the base version I started at.
 
 ### Optimizing File Size
 
@@ -40,7 +41,7 @@ Memory optimization was more difficult. The biggest memory consumers were:
 
 ### Kaggle Rating Deflation
 
-It was interesting to see Kaggle ratings deflate over ti** as engines improved.  
+It was interesting to see Kaggle ratings deflate over time as engines improved.  
 Since engines started at the lowest rating, it made it harder to judge their true Elo.  
 Additionally, only the two most recent active submissions were paired with other engines.  
 
