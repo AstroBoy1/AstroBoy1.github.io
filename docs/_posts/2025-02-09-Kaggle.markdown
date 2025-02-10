@@ -9,49 +9,49 @@ categories: jekyll update
 
 This was my first time looking at chess engine code: [GitHub Link][code-link].  
 
-The goal of the competition was to keep the memory under **5 MiB** and the total file size under **64 KiB**.  
-I ended up trying out a variety of open-source chess engines, documenting the **memory usage, Elo, and file size** of each.  
-**Stockfish** stood out as the strongest, while **Cfish** was a more memory-efficient version written in C.
+The goal of the competition was to keep the memory under 5 MiB and the total file size under 64 KiB.  
+I ended up trying out a variety of open-source chess engines, documenting the memory usage, Elo, and file size of each.  
+Stockfish stood out as the strongest, while Cfish was a more memory-efficient version written in C.
 
 ### Optimizing File Size
 
 To reduce the file size, I removed:
-- The **openings book**
-- The **endgame book**
-- **Print statements**
-- **960 support** (Chess960)
-- Compressed using **7z**
+- The openings book
+- The endgame book
+- Print statements
+- 960 support (Chess960)
+- Compressed using 7z
 
-One trick was that the platform **didn't accept 7z**, so I:
-1. Compressed the engine using **7z**.
-2. Then compressed it again with **gz**, since **gz** was an allowed format.
+One trick was that the platform didn't accept 7z, so I:
+1. Compressed the engine using 7z.
+2. Then compressed it again with gz, since gz was an allowed format.
 
 ### Tracking Changes & Testing
 
-I made sure to track each change with **new branches or commits**.  
-After each major change, I ran a **20-round chess match** between iterations to ensure nothing was broken.  
-All of this was recorded in a **spreadsheet** for easier tracking.
+I made sure to track each change with new branches or commits.  
+After each major change, I ran a 20-round chess match between iterations to ensure nothing was broken.  
+All of this was recorded in a spreadsheet for easier tracking.
 
 ### Reducing Memory Usage
 
 Memory optimization was more difficult. The biggest memory consumers were:
-1. The **transposition table**, which took up a **large** portion of memory. Reducing this helped a lot.
-2. The **key size used for pawn caching**, which was another key factor.
+1. The transposition table, which took up a large portion of memory. Reducing this helped a lot.
+2. The key size used for pawn caching, which was another key factor.
 
 ### Kaggle Rating Deflation
 
-It was interesting to see **Kaggle ratings deflate over time** as engines improved.  
-Since engines started at the **lowest rating**, it made it harder to judge their true **Elo**.  
-Additionally, only the **two most recent active submissions** were paired with other engines.  
+It was interesting to see Kaggle ratings deflate over ti** as engines improved.  
+Since engines started at the lowest rating, it made it harder to judge their true Elo.  
+Additionally, only the two most recent active submissions were paired with other engines.  
 
-Thus, **local testing** was useful but not always representative of the actual **Kaggle rating**, since:
+Thus, local testing was useful but not always representative of the actual Kaggle rating, since:
 - We couldn't see what other engines people were using.
 - Matchups were limited.
 
 ### Collaboration & Teamwork
 
-Near the end of the competition, I joined **teams** and made new friends across the world.  
-We learned to **collaborate across time zones**, which was challenging but ultimately a great learning experience.  
+Near the end of the competition, I joined teams and made new friends across the world.  
+We learned to collaborate across time zones, which was challenging but ultimately a great learning experience.  
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
