@@ -5,14 +5,14 @@ date:   2025-02-09 15:34:41 -0800
 categories: jekyll update
 ---
 
-## My First Experience with Chess Engine Code
-
-This was my first time looking at chess engine code: [GitHub Link][code-link].  
+## Competition Overview
 
 The goal of the competition was to keep the memory under 5 MiB and the total file size under 64 KiB.  
 I ended up trying out a variety of open-source chess engines, documenting the memory usage, Elo, and file size of each.  
 Stockfish stood out as the strongest, while Cfish was a more memory-efficient version written in C.
 Cfish10 was the base version I started at.
+
+A link to the Cfish version I optimized is here: [GitHub Link][code-link].  
 
 ### Optimizing File Size
 
@@ -47,12 +47,17 @@ Additionally, only the two most recent active submissions were paired with other
 
 Thus, local testing was useful but not always representative of the actual Kaggle rating, since:
 - We couldn't see what other engines people were using.
-- Matchups were limited.
+- Matchups were limited.  
+
+### Importance of Search
+One thing I did not realize before is the importance of search and depth. Cruder evaluations with deeper search,
+often do better than more precise evaluations with shallower search. This is why C brings huge advantages, and
+when testing the C version of stockfish vs the C++ version, the C version outperformed its counterpart.
 
 ### Collaboration & Teamwork
 
 Near the end of the competition, I joined teams and made new friends across the world.  
-We learned to collaborate across time zones, which was challenging but ultimately a great learning experience.  
+We learned to collaborate across time zones, which was challenging but ultimately a great learning experience.
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
