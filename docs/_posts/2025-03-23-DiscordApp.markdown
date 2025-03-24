@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Discord Puzzle App"
-date:   2025-03-24 15:34:41 -0800
+date:   2025-03-23 15:34:41 -0800
 categories: jekyll update
 ---
 
