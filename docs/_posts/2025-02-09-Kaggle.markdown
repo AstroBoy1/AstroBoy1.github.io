@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Kaggle FIDE Efficient Chess Engine Competition"
+title:  "Kaggle FIDE Efficient Engine Competition"
 date:   2025-02-09 15:34:41 -0800
 categories: jekyll update
 ---

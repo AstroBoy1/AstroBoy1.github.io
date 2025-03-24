@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ultima Chess Engine in Python"
+title:  "Ultima Engine"
 date:   2016-08-23 15:34:41 -0800
 categories: jekyll update
 ---

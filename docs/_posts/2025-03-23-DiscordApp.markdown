@@ -5,9 +5,7 @@ date:   2025-03-23 15:34:41 -0800
 categories: jekyll update
 ---
 
-## Discord Chess Puzzle App
-
-Had some fun today vibe coding a discord chess puzzle app. It automatically shows the lichess puzzle of the day for the chess club server I'm in.
+Had some fun today vibe coding a discord chess puzzle app. It posts the lichess puzzle of the day into a channel.
 
 The code can be found here: [GitHub Link][code-link].  
 
