@@ -11,7 +11,7 @@ The code can be found here: [GitHub Link][code-link].
 
 Here’s a preview of the app in action:
 
-![Discord Puzzle App Screenshot](/assets/images/discord-puzzle-app.jpg)
+![Discord Puzzle App Screenshot](../../assets/images/discord-puzzle-app.jpg)
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
