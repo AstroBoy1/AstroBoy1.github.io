@@ -9,6 +9,10 @@ Had some fun today vibe coding a discord chess puzzle app. It posts the lichess 
 
 The code can be found here: [GitHub Link][code-link].  
 
+Here’s a preview of the app in action:
+
+![Discord Puzzle App Screenshot](/assets/images/discord-puzzle-app.jpg)
+
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
